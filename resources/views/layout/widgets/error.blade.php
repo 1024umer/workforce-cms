@@ -1,0 +1,3 @@
+@error($type)
+    <div class="alert alert-danger">{{ $message }}</div>
+@enderror

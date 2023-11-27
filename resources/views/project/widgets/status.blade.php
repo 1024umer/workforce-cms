@@ -1,0 +1,9 @@
+@if($task->is_completed==0)
+    @if($task->due_date>=date('Y-m-d'))
+        Upcomming
+    @elseif($task->due_date<=date('Y-m-d'))
+        Overdue
+    @elseif($task->due_date==date('Y-m-d'))
+        Today
+    @endif
+@endif

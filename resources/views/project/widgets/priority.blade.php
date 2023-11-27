@@ -1,0 +1,1 @@
+<span class="badge bg-{{$taskPriorities[$task->is_priority]['label']}}">{{$taskPriorities[$task->is_priority]['name']}}</span>
